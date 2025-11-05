@@ -31,7 +31,7 @@ jobs:
   
         run: |
           newman run tw.json \
-          -e env.json \
+          -e envtw.json \
             --reporters cli,htmlextra \
             --reporter-htmlextra-export reports/results.html
 
